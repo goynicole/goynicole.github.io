@@ -1,0 +1,168 @@
+.header {
+  background-image: url("../img/moi.jpg");
+  /* z-index:1000; */
+}
+
+/* les titres====> */
+.row {
+  /* margin: 0 auto; */
+  margin-left: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+#resume h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+h1 {
+  padding-top: 50px;
+  color: black;
+}
+
+
+/* logo social====> */
+.social li {
+  font-size: 40px;
+ display: inline-block;
+  display: inline;
+  margin: 0 15px;
+  text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+}
+
+/* font ====>*/
+#resume {
+  background: #fff;
+  /* opacity: 0.7; */
+  padding-top: 10px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+/* article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+
+} */
+
+ /* interieur de competence experience formation====> */
+.row .nine {
+  width: 75%;
+}
+#resume .main-col {
+  padding-right: 10%;
+}
+
+
+/* .bars {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
+  color: red;
+} */
+   /* navbar=====> */
+.navbar {
+  display: block;
+  /* pour evité que mes images ou card passe au dessus de ma nav-bar */
+  z-index:1000;
+  position: fixed;
+  width: 100%;
+}
+/* .photoshop {
+  width: 60%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+} */
+  /* image de font =====> */
+.moi {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIcLORwXM9zDCuiPZldvkdlbvu8os1hjklcg4gs4FGQ1lsHjujw) center;
+  background-size: cover;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  z-index: -1;
+  opacity: 0.8;
+}
+h1,
+h3,
+.social {
+  display: block;
+  text-align: center;
+}
+
+
+.social a {
+  color: white;
+
+}
+.social i {
+  /* position: absolute; /* postulat de départ */
+   top: 50%; left: 50%; /* à 50%/50% du parent référent */
+   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+ /* ma photo =====> */
+#profile_picture {
+  display: block;
+  margin-left: auto;
+   margin-right: auto;
+  margin-top: 2%;
+  width: 160px;
+  border: 1px solid grey;
+  /* border-radius: 100%; */
+  /* margin-left: 45%; */
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+/* .section2 {
+  background-color: red;
+} */
+
+/* .social-links li {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 30px;
+} */
+
+.copyright li {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.copyright {
+  color: white;
+}
+
+#titre {
+  color: white;
+}
+
+/* .progress{
+  display:block;
+  content:"\n\";
+} */
+/* h3{
+text-shadow: 2px 0 0 red, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+} */
