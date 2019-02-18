@@ -28,11 +28,16 @@ h1 {
   margin: 0 15px;
   text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
 }
+#CvPapier{
+  text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
 
 /* font ====>*/
 #resume {
   background: #fff;
-  /* opacity: 0.7; */
+  opacity: 0.9;
   padding-top: 10px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -89,7 +94,7 @@ section {
   height: 100vh;
   top: 0;
   left: 0;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIcLORwXM9zDCuiPZldvkdlbvu8os1hjklcg4gs4FGQ1lsHjujw) center;
+  background: url(https://eurocircle.fr/wp-content/uploads/2016/11/sky-2.jpg) center;
   background-size: cover;
   -moz-transition: 0.1s;
   -o-transition: 0.1s;
