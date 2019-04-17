@@ -1,100 +1,203 @@
-.header {
-  background-image: url("../img/moi.jpg");
-  /* z-index:1000; */
+/* ======================================================navbar====> */
+.navbar {
+  display: block;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
 }
 
-/* les titres====> */
-.row {
-  /* margin: 0 auto; */
-  margin-left: 30px;
-  padding-top: 50px;
+.nav-link {
+  cursor: default;
+  float: right;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+/* style du Texte */
+#navbarToggler ul li a {
+  color: #e4e9f6;
+  font-family: 'Henny Penny';
+  font-size: 22px;
+}
+
+#navbarToggler {
+  margin-right: auto;
+}
+
+/* style du premier trait fixe au click */
+nav .underline {
+  border-bottom: 3px solid #0e93e8;
+}
+
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#nav a:hover, #nav a:focus {
+  /* overline pour un trait au dessus */
+  text-decoration: overline;
+  color: #0e93e8;
+}
+
+/* ==============================================position de mes liens====> */
+#presentation {
+  padding-top: 3%;
   text-align: center;
+  padding-bottom: 17%;
 }
-#resume h1 span {
-  border-bottom: 3px solid #11abb0;
-  padding-bottom: 6px;
+
+#formations {
+  margin-left: 0%;
+  padding-top: 15%;
+  font-size: 100%;
+  padding-bottom: 8%;
 }
+
+#competences {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-image: url("https://66.media.tumblr.com/d96e2d8c772ada9d4dcce1c83e623141/tumblr_mz9ori9sug1t1wtqyo1_500.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#experiences {
+  padding-top: 15%;
+  font-size: 100%;
+  padding-bottom: 5%;
+}
+
+#contacts {
+  text-align: center;
+  padding-top: 17%;
+  padding-bottom: 27%;
+  background-image: url("../img/ordi.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 h1 {
   padding-top: 50px;
   color: black;
 }
 
+/* ===================================================================titre dans accueil====> */
+#titre {
+  color: white;
+  font-size: 90px;
+  text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+}
 
-/* logo social====> */
+/* ==================================================================message1 dans accueil====> */
+#message1 {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Frijole';
+  font-size: 40px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+#compteurDeVisite {
+  text-align: center;
+  width: 215px;
+}
+
+/* ===============================================================================logo social====> */
 .social li {
   font-size: 40px;
- display: inline-block;
+  display: inline-block;
   display: inline;
   margin: 0 15px;
   text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
 }
-#CvPapier{
-  text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
 
+h1,
+h3,
+.social {
+  display: block;
+  text-align: center;
 }
 
+.social a {
+  color: white;
+}
 
-/* font ====>*/
+.social i {
+  /* position: absolute; /* postulat de départ */
+  top: 50%;
+  left: 50%;
+  /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+  /* décalage de 50% de sa propre taille */
+}
+
+.social-links li {
+  text-align: center;
+}
+
+.social i:hover {
+  color: #e80e28;
+}
+
+li {
+  text-align: center;
+}
+
+/* ==================================================================espace entre mes progress bar====> */
+.progress {
+  margin-bottom: 4%;
+}
+
+#cardProgress {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+#cardContacts {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#CvPapier {
+  /* text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black; */
+  font-family: 'Henny Penny';
+  font-size: 28px;
+  background-color: white;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* ==============================font /* interieur de experience et formation====>*/
 #resume {
+  font-family: 'Fredoka One';
   background: #fff;
   opacity: 0.9;
-  padding-top: 10px;
-  padding-bottom: 72px;
-  overflow: hidden;
 }
-/* article,
-aside,
-details,
-figcaption,
-figure,
+
+/* ======================================================surlignement rouge =====> */
+h3 {
+  text-decoration: underline red;
+}
+
 footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+  {
   display: block;
-
-} */
-
- /* interieur de competence experience formation====> */
-.row .nine {
-  width: 75%;
-}
-#resume .main-col {
-  padding-right: 10%;
 }
 
-
-/* .bars {
-  width: 95%;
-  float: left;
-  padding: 0;
-  text-align: left;
-  color: red;
-} */
-   /* navbar=====> */
-.navbar {
-  display: block;
-  /* pour evité que mes images ou card passe au dessus de ma nav-bar */
-  z-index:1000;
-  position: fixed;
-  width: 100%;
-}
-/* .photoshop {
-  width: 60%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
-} */
-  /* image de font =====> */
-.moi {
+/* =======================================================image de font =====> */
+.ImageDeFond {
   display: block;
   position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  background: url(https://eurocircle.fr/wp-content/uploads/2016/11/sky-2.jpg) center;
+  background: url(../img/working.jpg) center;
   background-size: cover;
   -moz-transition: 0.1s;
   -o-transition: 0.1s;
@@ -103,33 +206,17 @@ section {
   z-index: -1;
   opacity: 0.8;
 }
-h1,
-h3,
-.social {
-  display: block;
-  text-align: center;
-}
 
-
-.social a {
-  color: white;
-
-}
-.social i {
-  /* position: absolute; /* postulat de départ */
-   top: 50%; left: 50%; /* à 50%/50% du parent référent */
-   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-}
- /* ma photo =====> */
+/* ==============================================================ma photo =====> */
 #profile_picture {
   display: block;
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
   margin-top: 2%;
   width: 160px;
   border: 1px solid grey;
-  /* border-radius: 100%;
-  margin-left: 45%; */
+  border-radius: 100%;
+  margin-left: 45%;
 }
 
 h2 {
@@ -137,19 +224,9 @@ h2 {
   color: white;
 }
 
-p{
+p {
   text-align: center;
 }
-
-/* .section2 {
-  background-color: red;
-} */
-
-/* .social-links li {
-  display: inline-block;
-  margin: 0 auto;
-  font-size: 30px;
-} */
 
 .copyright li {
   display: inline-block;
@@ -157,17 +234,6 @@ p{
 }
 
 .copyright {
-  color: white;
+  color: rgb(28, 230, 133);
+  text-align: center;
 }
-
-#titre {
-  color: white;
-}
-
-/* .progress{
-  display:block;
-  content:"\n\";
-} */
-/* h3{
-text-shadow: 2px 0 0 red, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
-} */
