@@ -94,7 +94,7 @@ h1 {
 
 /* ===================================================================titre dans accueil====> */
 #titre {
-  color: white;
+  color: #072bc4;
   font-size: 90px;
   text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
 }
@@ -104,6 +104,7 @@ h1 {
   margin-left: 2%;
   margin-right: 2%;
   font-family: 'Frijole';
+  color: #0b5dd7;
   font-size: 40px;
   background-color: white;
   opacity: 0.9;
