@@ -47,7 +47,7 @@ nav .underline {
 
 /* ==============================================position de mes liens====> */
 #presentation {
-  padding-top: 3%;
+  padding-top: 13%;
   text-align: center;
   padding-bottom: 17%;
 }
@@ -60,7 +60,7 @@ nav .underline {
 }
 
 #competences {
-  padding-top: 25%;
+  padding-top: 15%;
   padding-bottom: 45%;
   background-image: url("../gif/work.gif");
   background-attachment: fixed;
@@ -164,6 +164,7 @@ li {
 #cardProgress {
   margin-left: 6%;
   margin-right: 6%;
+  opacity: 0.9;
 }
 
 #cardContacts {
@@ -178,7 +179,9 @@ li {
   background-color: white;
   opacity: 0.9;
   text-align: center;
+      color: red;
 }
+
 
 /* ==============================font /* interieur de experience et formation====>*/
 #resume {

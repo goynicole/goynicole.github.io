@@ -29,7 +29,7 @@ $(function(){
       $('#contacts').show();
     });
 
-  $('#expe').click(function()  {
+  $('#expe').click(function(){
     $('#experiences').show();
     $('#presentation').hide();
     $('#formations').hide();
@@ -45,17 +45,18 @@ $(function(){
     $('#formations').hide();
 });
 
-$('.nav-collapse').click('li', function() {
+$('.nav-collapse').click('li', function(){
   $('.nav-collapse').collapse('hide');
 });
 // pour mon trait fixe au click
 $(function() {
-    $('a').click(function() {
+    $('a').click(function(){
         $('a').removeClass('underline');
         $(this).addClass('underline');
     });
 });
 });
+
 // test pour mouvement des cards
 // $('body').mousemove(function(e) {
 //    var amountMovedX = (e.pageX * -0.53 / 6);
