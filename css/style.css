@@ -49,7 +49,7 @@ nav .underline {
 #presentation {
   padding-top: 13%;
   text-align: center;
-  padding-bottom: 17%;
+  padding-bottom: 8%;
 }
 
 #formations {
@@ -61,7 +61,7 @@ nav .underline {
 
 #competences {
   padding-top: 15%;
-  padding-bottom: 45%;
+  padding-bottom: 8%;
   background-image: url("../gif/work.gif");
   background-attachment: fixed;
   background-position: center;
@@ -72,13 +72,13 @@ nav .underline {
 #experiences {
   padding-top: 15%;
   font-size: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 
 #contacts {
   text-align: center;
   padding-top: 17%;
-  padding-bottom: 90%;
+  padding-bottom: 8%;
   background-image: url("../img/ordi.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -103,12 +103,12 @@ h1 {
 #message1 {
   margin-left: 2%;
   margin-right: 2%;
-  font-family: 'Frijole';
   color: #0b5dd7;
   font-size: 40px;
   background-color: white;
   opacity: 0.9;
 }
+  /* font-family: 'Frijole'; */
 
 #compteurDeVisite {
   text-align: center;
