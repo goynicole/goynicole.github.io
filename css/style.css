@@ -51,14 +51,12 @@ nav .underline {
   text-align: center;
   padding-bottom: 8%;
 }
-
 #formations {
   margin-left: 0%;
   padding-top: 15%;
   font-size: 100%;
   padding-bottom: 8%;
 }
-
 #competences {
   padding-top: 15%;
   padding-bottom: 8%;
@@ -68,19 +66,16 @@ nav .underline {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #experiences {
   padding-top: 15%;
   font-size: 100%;
   padding-bottom: 8%;
 }
-
 #benevoles {
   padding-top: 15%;
   font-size: 100%;
   padding-bottom: 8%;
 }
-
 #contacts {
   text-align: center;
   padding-top: 17%;

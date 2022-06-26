@@ -50,7 +50,6 @@ $(function(){
     $('#competences').hide();
     $('#contacts').show();
   });
-
   $('#cont').click(function(){
     $('#contacts').show();
     $('#presentation').hide();
