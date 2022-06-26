@@ -3,6 +3,7 @@ $(function(){
   $('#experiences').hide();
   $('#formations').hide();
   $('#competences').hide();
+  $('#benevoles').hide();
   $('#contacts').hide();
 
   $('#pres').click(function(){
@@ -10,6 +11,7 @@ $(function(){
     $('#experiences').hide();
     $('#formations').hide();
     $('#competences').hide();
+    $('#benevoles').hide();
     $('#contacts').hide();
   });
 
@@ -18,6 +20,7 @@ $(function(){
     $('#presentation').hide();
     $('#experiences').hide();
     $('#competences').hide();
+    $('#benevoles').hide();
     $('#contacts').show();
   });
 
@@ -26,11 +29,22 @@ $(function(){
       $('#presentation').hide();
       $('#experiences').hide();
       $('#formations').hide();
+      $('#benevoles').hide();
       $('#contacts').show();
     });
 
   $('#expe').click(function(){
     $('#experiences').show();
+    $('#presentation').hide();
+    $('#formations').hide();
+    $('#competences').hide();
+    $('#benevoles').hide();
+    $('#contacts').show();
+  });
+
+  $('#bene').click(function(){
+    $('#benevoles').show();
+    $('#experiences').hide();
     $('#presentation').hide();
     $('#formations').hide();
     $('#competences').hide();
@@ -43,6 +57,7 @@ $(function(){
     $('#experiences').hide();
     $('#competences').hide();
     $('#formations').hide();
+    $('#benevoles').hide();
 });
 
 $('.nav-collapse').click('li', function(){
