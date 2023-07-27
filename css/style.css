@@ -35,14 +35,14 @@
 
 /* style du premier trait fixe au click */
 nav .underline {
-  border-bottom: 3px solid #0e93e8;
+  border-bottom: 3px solid #053a5c;
 }
 
 /* Styles pour les liens survolés ou sélectionnés au clavier*/
 #nav a:hover, #nav a:focus {
   /* overline pour un trait au dessus */
   text-decoration: overline;
-  color: #0e93e8;
+  color: #b63939;
 }
 
 /* ==============================================position de mes liens====> */
@@ -51,12 +51,14 @@ nav .underline {
   text-align: center;
   padding-bottom: 8%;
 }
+
 #formations {
   margin-left: 0%;
   padding-top: 15%;
   font-size: 100%;
   padding-bottom: 8%;
 }
+
 #competences {
   padding-top: 15%;
   padding-bottom: 8%;
@@ -76,6 +78,7 @@ nav .underline {
   font-size: 100%;
   padding-bottom: 8%;
 }
+
 #contacts {
   text-align: center;
   padding-top: 17%;
